@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="icon" type="icon" href="img/favicon.ico">
+       
+       <title>"Diario La Nacional"</title>
+       <link rel="stylesheet" href="estilos .css">
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/0c2a72bcb1.js" crossorigin="anonymous"></script>
+ </head>
+  <body> 
+       <header>
+          <nav>
+              <img class="LOGO" src="img/LN mediano.jpg"><h1> DIARIO LA NACIONAL</h1>
+             <ul>
+              <li class="link"><a href="index.html"> <h3>Home</h3></a></li>
+                 <li class="link"><a href="politica.html"> <h3>Noticias políticas</h3></a></li>
+                 <li class="link"><a href="deportes.html"> <h3>Noticias deportivas</h3></a></li>
+                 <li class="link "><a href="registrarse.html"><h3> Regístrese</h3></a></li>
+                 <li class="link"><a href="sucursales.html"> <h3> Sucursales</h3></a></li>
+                 <li class="link"><a href="espectaculos.html"><h3> Espectaculos </h3></a></li>   
+             </ul>
+         </nav>     
+       </header>
+   </body>
+   <body>    
+    <h2 class="animate__animated animate__hinge"> Con esta noticia...¡¡Nos caemos!!</h2>
+    <h2 class="animate__animated animate__rollIn">Con esta noticia...¡¡Nos caemos!!</h2>
+   <section >
+    <div class="dosColumnas">
+        <article>  
+          <td li class="alto" rowspan="1"><li-2 class="link-2"><a href="politica.html"> <h2>Ataque a Cristina: Alberto Fernández dijo: “No podemos minimizar diciendo que son un grupo de loquitos”</h2></a>   
+            <img class="imgArticle" src="img/alberto.jpg">
+            <p>El mandatario insistió en que el intento de magnicidio fue muy grave; también dijo que “es un debate abierto” el que se instaló por la suspensión de las PASO. “Espero que la Justicia determine si hay otros responsables que financiaron el tema, o si el tema termina allí, no lo sé. </p> </li></td>     
+           <td ><h2>Rusia movilizará 300.000 hombres a Ucrania y reitera su amenaza nuclear</h2>
+            <img class="imgArticle" src="img/POLITICA2.jpg"> 
+            <p>Por primera vez desde la Segunda Guerra Mundial, Rusia convocará a soldados de reserva para movilizar a alrededor de 300.000 hombres hacia los territorios ocupados en Ucrania, con el objetivo de consolidar su posición y finalmente anexar esa franja equivalente al 15% de suelo ucraniano. En el marco de la veloz contraofensiva de Ucrania, que se apresta a empujar a las fuerzas rusas hacia la frontera en una operación relámpago, el ministro de Defensa ruso, Serguéi Shoigu, anticipó la convocatoria a personal adicional para enviar al frente de batalla. Desde que se inició hace dos semanas el contraataque ucraniano con financiamiento y armas occidentales, el Gobierno ruso explicó sus derrotas indicando que sus tropas se estaban replegando para reorganizarse. Fuentes de inteligencia de EEUU y la OTAN habían estimado las bajas rusas en torno a los 70.000 o los 80.000 soldados, entre heridos y muertos (los fallecidos serían unos 15.000). Pero por primera vez el Kremlin salió a dar números propios, con el objetivo de desmentir esas informaciones: Shoigu indicó que los muertos fueron 5.937 soldados (el 25 de marzo había dicho que las bajas eran 1.351), mientras que el 90% de los heridos ya habría retornado al frente de combate. </p></li></td>
+            
+            
+            <div>
+              <img class="anuncios" id="anuncios">
+           </div>
+        </article>
+        <article>
+           <td li class="alto" rowspan="1"><li-2 class="link-2"><a href="politica.html"> <h2>Nueva York acusa formalmente de fraude fiscal a Donald Trump y sus hijos</h2></a>         
+          <img class="imgArticle" src="img/DT.jpg"> 
+          <p> La fiscal general del estado de Nueva York presentó el miércoles una demanda civil contra Donald Trump y tres de sus hijos en la investigación sobre las prácticas fiscales de su empresa, la Organización Trump, reforzando la presión de la justicia sobre el expresidente estadounidense.
+            El multimillonario republicano, de 76 años, también está siendo investigado por su papel en el ataque al Capitolio de Estados Unidos el 6 de enero de 2021. Así como por sus intentos de anular las elecciones presidenciales de 2020 y su manejo de documentos clasificados. Lo que llevó recientemente al FBI a allanar su residencia en Mar-a-Lago, Florida.</p></li></td> 
+          <td li class="alto"rowspan="1"><li-2 class="link-2"><a href="politica.html"> <h2>ECONOMÍA</h2></a>
+         <section>
+          <div class="container2" >
+            <h3> CASA DE CAMBIO</h3> </li></td>
+           
+            <form class="formulario">
+              <p>Selecciona moneda a convertir</p>
+              
+              <input  type="radio" name="cambio" id="uno"type="text"> Dolar
+              <input  type="radio" name="cambio" id="dos"type="text"> Euro
+              <p>Ingrese monto</p>
+              <input  type="number"  id="valor" min="1" max="100000">
+              <input  type="button"  id="cotizador" value="cotizar"onclick="convertir()"/>
+              
+            </form>
+            <div class="container-dolar">
+              <p class="titulo-dolar">Venta dolar</p>
+              <section class="venta">
+                <div class="precio-dolar" id="venta-dolar-oficial"></div>
+                <div class="precio-dolar" id="venta-dolar-blue"></div>
+                <div class="precio-dolar" id="venta-dolar-soja"></div>
+                <div class="precio-dolar" id="venta-dolar-liqui"></div>
+                <div class="precio-dolar" id="venta-dolar-bolsa"></div>
+                <div class="precio-dolar" id="venta-dolar-bitcoin"></div>
+                <div class="precio-dolar" id="venta-dolar-turista"></div>
+              </section>
+
+              
+                <p class="titulo-dolar">Compra dolar</p>
+                <section class="compra">
+                <div class="precio-dolar" id="compra-dolar-oficial"></div>
+                <div class="precio-dolar" id="compra-dolar-blue"></div>
+                <div class="precio-dolar" id="compra-dolar-soja"></div>
+                <div class="precio-dolar" id="compra-dolar-liqui"></div>
+                <div class="precio-dolar" id="compra-dolar-bolsa"></div>
+                <div class="precio-dolar" id="compra-dolar-bitcoin"></div>
+                <div class="precio-dolar" id="compra-dolar-turista"></div>
+              </section>
+            </div>
+          </div> 
+        </section> 
+        <script src="main.js"></script> 
+        
+        <img class="imgArticle" src="img/carref.jfif"><img class="imgArticle" src="img/bebe.jpg">
+        </article>          
+   </div>
+</section>
+
+   
+      </body>  
+ <footer>
+      <li class="link"><a href="index.html"> <h3> <= a Home</h3></a></li>
+      <li class="link2"><a href="deportes.html"><h3>Siguiente =></h3></a></li>
+        <h4>*DIARIO LA NACIONAL* Edición N° 1 *AÑO 2022*</h4>
+        <h5>Derechos reservados @ 2022</h5>
+      <div><a class="iconos"></a> 
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+      </div>    
+ </footer> 
+
+</html>

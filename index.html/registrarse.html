@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="icon" href="img/favicon.ico">
+      <meta name="viewport" content="width=device-whidth,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+      <title>"Diario La Nacional"</title>
+      <link rel="stylesheet" href="estilos .css">
+      <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+         />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/0c2a72bcb1.js" crossorigin="anonymous"></script>
+ </head>
+  <body>
+     <header>
+          <nav>
+             <br>
+             <img class="LOGO" src="img/LN mediano.jpg"><h1> DIARIO LA NACIONAL</h1>
+             <ul>
+               <li class="link"><a href="politica.html"> <h3>Noticias políticas</h3></a></li>
+               <li class="link"><a href="deportes.html"> <h3>Noticias deportivas</h3></a></li>
+               <li class="link "><a href="registrarse.html"><h3> Regístrese</h3></a></li>
+               <li class="link"><a href="sucursales.html"> <h3> Sucursales</h3></a></li>
+               <li class="link"><a href="espectaculos.html"><h3> Espectaculos </h3></a></li>   
+             </ul>
+         </nav>
+     </header>
+      <main>
+             <h2 class="animate__animated animate__wobble">Formulario De Registro</h2>
+             <b><h2 class="animate__animated animate__swing">¡Registrate y participa en sorteo por un curso de TIC con salida laboral!</h2></b>
+         <section class="form-register">
+              <ul>
+                 <div>              
+                        <form action="" method="post"><br>
+                        <label for="Name">Nombre</label>
+                        <input type="text" name="Nombre" id="Name">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" name="Apellido" id="Apellido">
+                        <label for="Domicilio">Calle-Dirección</label>
+                        <input type="text" name="Domicilio" id="Domicilio">
+                         <br><br>
+                        <label for="Altura">N° calle</label>
+                        <input type="numero" name="Altura" id="Altura">
+                        <label for="ciudad">Ciudad : </label>
+                        <input type="text" name="ciudad" id="ciudad">
+                        <label for="codigopostal"> Código postal  : </label>
+                        <input type="text" name="codigopostal" id="codigopostal">
+                        <br><br>
+                        <label for="telefono">Tel / Cel</label>
+                        <input type="numero" name="telefono" id="telefono">
+                        <label for="fechanac">F/nacim </label>
+                        <input type="numero" name="fechanac" id="fechanac">              
+                        <label for="email">..............Email  : </label>
+                        <input type="text" name="email" id="email">
+                        <br><br>
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password">
+               
+                        <label>Género:</label><input type="radio" name="mujer">Hombre <input type="radio" name="mujer">Mujer<input type="radio" name="mujer">Otro
+                         <br><br>
+                        <label for="experiencia">Conocimientos previos</label>
+                        <input type="checkbox"> html
+                        <input type="checkbox"> css
+                        <input type="checkbox"> boostrap
+                        <input type="checkbox"> Javascript
+                        <input type="checkbox"> Typescript
+                        <input type="checkbox"> Angular
+                        <input type="checkbox"> Base de datos
+                        <br><br>
+                        <label for="nivelestudios">Estudios</label>
+                        <select name="select">
+                            <option value="value1" selected>primario</option>
+                            <option value="value2" selected>secundario</option>
+                            <option value="value3" selected>universitario</option>           
+                        </select>
+                       <div class="derecha">
+                          <div class="formularioComentario">
+                                <p><textarea name="comentario" rows="5" cols="50">Escribe tu comentario </textarea></p>
+                          </div>
+                             
+                          <div class="opciones">
+                                      <label>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></label>
+                              <input id="terminosCondiciones" type="checkbox" name="acepta"> 
+                          </div>
+                           <div class="formularioNumeros" id="captchaNumeros"></div>
+                              <div class="formularioResultado">
+                                 
+                                 <input id="captchaResultado" type="text">
+                                 <label>Escriba el resultado de la suma</label>
+                                 <div id="error"></div>
+                              </div>
+                               <div>
+                                 <input id="btnEnviar" type="button" value="Enviar"/>
+                                 <input type="button" value="Borrar"/>
+                               </div>
+                          </div>
+                        </div>
+                    </div>
+                </ul>           
+        </section>
+                    <script src="registrarse.js"></script>                         
+     </main>  
+ </body>
+        <footer> 
+          <li class="link"><a href="index.html"> <h3> <= a Home</h3></a></li>
+          <li class="link"><a href="deportes.html"> <h3><=Anterior</h3></a></li>
+          <li class="link2"><a href="sucursales.html"><h3>Siguiente =></h3></a></li>
+            <h4>*DIARIO LA NACIONAL* Edición N° 1 *AÑO 2022*</h4>
+            <h5>Derechos reservados @ 2022</h5>
+            <div><a class="iconos"></a>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+             </div>
+         </footer> 
+ 
+</html>
